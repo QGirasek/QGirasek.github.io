@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <meta charset="utf-8"> -->
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="flex">
+          <div class="logo">
+            <a href="index.html">Q <span>G</span></a>
+          </div>
+          <nav>
+            <button id="nav-toggle" class="hamburger-menu">
+              <span class="strip"></span>
+              <span class="strip"></span>
+              <span class="strip"></span>
+            </button>
+            <ul id="nav-menu-container" style="display: none;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research_and_publications.html">Research and Publications</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="main_image">
+            <img src="images/whale_shark_2.jpg" alt="whale_shark" />
+          </section>
+
+        <section class="about_me">
+          <h1>Current Projects</h1>
+          <p>
+            I recently got into 3D printing and 3D design.
+            <br>
+            For 3D printing, I've been using the PrusaSlicer in the physics department at my college.
+            <br>
+            For 3D design, I've been using Blender and the Wacom Intuos Creative Pen Tablet.
+            <br>
+            <br>
+            <br>
+            I've been interested in website design and development since I took a class in high school.
+            <br>
+            This fall (2021) I will be taking the website design course at my college.
+            <br>
+            This website here was built at the beginning of the summer (2021) to refresh myself on HTML, CSS, and JavaScript.
+          </p>
+        </section>
+
+        <section class="contact_me">
+          <h1>3D Design and Printing</h1>
+          <h2>
+            Here are some images of the prints I made during the spring 2021 semester
+          </h2>
+          <p>
+            These are just filler images for now
+          </p>
+          <div class="flex">
+            <div id="map" class="map">
+              <img src="images/whale_shark_3.jpg" />
+              <img src="images/whale_shark_4.jpg" />
+            </div>
+            </div>
+          <h2>
+            Here are some images of designs I made during the summer of 2021
+          </h2>
+          <p>
+            These are just filler images for now
+          </p>
+          <div class="flex">
+            <div id="map" class="map">
+              <img src="images/whale_shark_3.jpg" />
+              <img src="images/whale_shark_4.jpg" />
+            </div>
+            </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="flex">
+          <small>&copy; 2021. Created by Q.G. using HTML5, CSS, and JavaScript.</small>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="social-media-logo" />
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="social-media-logo" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function () {
+          let navMenu = document.getElementById('nav-menu-container');
+          navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
+        })
+      </script>
+  </body>
+</html>
