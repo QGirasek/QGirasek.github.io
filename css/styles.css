@@ -307,7 +307,7 @@ footer ul {
     padding: 0;
 }
 
-footer ul {
+footer ul li {
     display: inline-block;
     margin-left: 20px;
 }
