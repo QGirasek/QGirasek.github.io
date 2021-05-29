@@ -99,7 +99,7 @@ nav ul li a {
 /*start main image styles */
 .main_image {
     position: relative;
-    max-height: 650px;
+    max-height: 550px;
     overflow: hidden;
     margin-bottom: 30px;
 }
