@@ -197,7 +197,6 @@ two_body_boxes .flex_2 {
     padding: 40px;
     color: #ffffff;
     text-align: center;
-  
     border: 2px solid;
     border-radius: 50px;
     margin: 30px;
@@ -295,10 +294,15 @@ two_body_boxes .flex_2 {
 }
 /* end: current projects */
 
-/* end: project section*/
+/* start: project section*/
 .project_section {
     background-color: #4682B4;
-    padding: 75px 0 60px;
+    padding: 40px;
+    color: #ffffff;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 50px;
+    margin: 30px;
 }
 
 .project_section h1 {
