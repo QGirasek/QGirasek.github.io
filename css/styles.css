@@ -101,7 +101,7 @@ nav ul li a {
     position: relative;
     max-height: 650px;
     overflow: hidden;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
 }
 
 .main_image img{
@@ -130,7 +130,7 @@ nav ul li a {
 
 /* start: 3 box styles */
 .three_body_boxes {
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 three_body_boxes .flex {
@@ -143,6 +143,8 @@ three_body_boxes .flex {
     color: #ffffff;
     text-align: center;
     width: 999px;
+    border: 2px solid;
+    border-radius: 50px;
 }
 
 .box2 {
@@ -152,6 +154,12 @@ three_body_boxes .flex {
 .box h2 {
     margin-bottom: 25px;
     color: #191970;
+}
+
+.box h3 {
+    margin-bottom: 25px;
+    color: #191970;
+    font-weight: bold;
 }
 
 .box p{
@@ -174,6 +182,62 @@ three_body_boxes .flex {
     color: #ffffff;
 }
 /* end: 3 box styles */
+
+/* start: 2 box styles */
+.two_body_boxes {
+    margin-bottom: 50px;
+}
+
+two_body_boxes .flex_2 {
+    justify-content: space-between;
+}
+
+.box_2 {
+    background-color: #4682B4;
+    padding: 40px;
+    color: #ffffff;
+    text-align: center;
+  
+    border: 2px solid;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.box_2 h2 {
+    margin-bottom: 25px;
+    color: #191970;
+}
+
+.box_2 h3 {
+    margin-bottom: 25px;
+    color: #191970;
+    font-weight: bold;
+}
+
+.box_2 p{
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    font-size: 0.85em;
+}
+
+/* end: 2 box styles */
+
+/* start: summary*/
+.summary {
+    background-color: #ffffff;
+    color: #191970;
+    text-align: center;
+    padding: 0 10px 10px;
+    border: 2px solid #191970;
+    border-radius: 50px;
+    margin: 80px;
+}
+
+.summary h3 {
+    font-weight: bold;
+}
+/* end: summary*/
+
 
 /* start: about me */
 .about_me {
@@ -202,6 +266,34 @@ three_body_boxes .flex {
     padding: 8px 30px;
 }
 /* end: about me */
+
+/* start: current projects */
+.current_projects {
+    background-color: #ffffff;
+    color: #191970;
+    text-align: center;
+    padding: 0 10px 30px;
+}
+
+.current_projects h1 {
+    margin-bottom: 50px;
+}
+
+.current_projects p {
+    max-width: 640px;
+    font-size: 0.85em;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+.current_projects button {
+    background-color: #4682B4;
+    color: #ffffff;
+    border: none;
+    font-size: 1em;
+    padding: 8px 30px;
+}
+/* end: current projects */
 
 /* end: project section*/
 .project_section {
