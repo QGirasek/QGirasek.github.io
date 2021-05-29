@@ -387,6 +387,12 @@ footer ul li {
         padding: 0;
     }
 
+    .project_section{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
     footer {
         text-align: center;
     }
