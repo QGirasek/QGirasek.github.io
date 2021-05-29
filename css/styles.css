@@ -393,6 +393,10 @@ footer ul li {
         padding: 0;
     }
 
+    .project_section img {
+        width: auto;
+    }
+
     footer {
         text-align: center;
     }
