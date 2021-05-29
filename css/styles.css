@@ -221,6 +221,50 @@ two_body_boxes .flex_2 {
 
 /* end: 2 box styles */
 
+/* start: 1 box styles */
+.one_body_boxes {
+    margin-bottom: 50px;
+}
+
+one_body_boxes .flex_3 {
+    justify-content: space-between;
+}
+
+.box_3 {
+    background-color: #4682B4;
+    padding: 40px;
+    color: #ffffff;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.box_3 h2 {
+    margin-bottom: 25px;
+    color: #191970;
+}
+
+.box_3 h3 {
+    margin-bottom: 25px;
+    color: #191970;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+.box_3 p{
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    font-size: 0.85em;
+}
+
+.box_3 a{
+    color: #ffffff;
+}
+
+/* end: 1 box styles */
+
 /* start: summary*/
 .summary {
     background-color: #ffffff;
@@ -421,7 +465,7 @@ two_body_boxes .flex_2 {
 /* start: footer*/
 footer {
     background-color: #4682B4;
-    padding: 75px 10px 60px;
+    padding: 60px 10px 60px;
     color: #ffffff;
 }
 
