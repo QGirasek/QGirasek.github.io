@@ -203,6 +203,36 @@ three_body_boxes .flex {
 }
 /* end: about me */
 
+/* end: project section*/
+.project_section {
+    background-color: #4682B4;
+    padding: 75px 0 60px;
+}
+
+.project_section h1 {
+    color: #191970;
+    margin-bottom: 50px;
+}
+
+.project_section h2 {
+    color: #ffffff;
+    padding: 75;
+    text-align: center;
+    text-transform: unset;
+}
+
+.project_section a {
+    color: #ffffff;
+}
+
+.project_section p {
+    color: #ffffff;
+    padding: 75;
+    text-align: center;
+}
+
+/* end: project section */
+
 /* start: contact me */
 .contact_me {
     background-color: #4682B4;
@@ -234,16 +264,17 @@ three_body_boxes .flex {
 .contact_me .flex {
     justify-content: space-between;
     max-width: 900px;
+    padding: 50px 50px;
 }
 
 .image_1 {
-    width: 450px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
     padding-left: 10px;
 }
 
 .contact_form {
-    width: 500px;
+    width: 900px;
     padding: 0 10px 0 40px;
 }
 
@@ -266,15 +297,17 @@ three_body_boxes .flex {
     width: 100%;
     border: none;
     box-sizing: border-box;
+    font-family: 'Times New Roman';
 }
 
 .contact_form textarea {
     resize: none;
     height: 300px;
+    font-family: 'Times New Roman';
 }
 
 .contact_form button {
-    background-color: #4682B4;
+    background-color: #191970;
     border: none;
     color: #ffffff;
     padding: 8px 40px;
