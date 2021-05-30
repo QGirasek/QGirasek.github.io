@@ -382,6 +382,20 @@ one_body_boxes .flex_3 {
 
 /* end: project section */
 
+/* start: project images*/
+.project_image {
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.project_image img{
+    width: 90%;
+}
+
+/* end: project images */
+
 /* start: contact me */
 .contact_me {
     background-color: #4682B4;
