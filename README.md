@@ -10,6 +10,4 @@ Will take a website design class in Fall 2021 (college)
 
 Resources used: w3Schools (https://www.w3schools.com/) and https://www.youtube.com/watch?v=Q4eIw35LtAA
 
-Whale shark images: Unsplash
-
-Other images: my own
+&copy; 2021. Site created by Q.L.G. using HTML5, CSS, and JavaScript. All images were taken by Q.L.G.

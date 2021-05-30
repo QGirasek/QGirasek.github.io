@@ -104,7 +104,7 @@ nav ul li a {
 /*start main image styles */
 .main_image {
     position: relative;
-    max-height: 400px;
+    max-height: 500px;
     overflow: hidden;
     margin-bottom: 30px;
 }
