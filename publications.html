@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <meta charset="utf-8"> -->
+    <title>Publications</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="flex">
+          <div class="logo">
+            <a href="index.html">Q<span>G</span></a>
+          </div>
+          <nav>
+            <button id="nav-toggle" class="hamburger-menu">
+              <span class="strip"></span>
+              <span class="strip"></span>
+              <span class="strip"></span>
+            </button>
+            <ul id="nav-menu-container" style="display: none;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="projects.html">Life</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="main_image">
+            <img src="images/GirasekQ_Norway.JPG" alt="A picture I took in Norway" />
+            <div class="main_title_bar_opaque">
+              <h1>Publications</h1>
+            </div>
+          </section>
+        <section class="two_body_boxes">
+          <div class="flex_2">
+            <div class="box_2">
+              <br>
+              Click on the citations for more!
+              <br>
+              <br>
+              <h2>Peer-Reviewed Publications</h2>
+              <p>
+                <a href="https://doi.org/10.1111/mec.16046">Behrens, K. A., Girasek, Q. L., Sickler, A., Hyde, J., & Buonaccorsi, V. P. (2021). Regions of genetic divergence in depth‐separated <i>Sebastes</i> rockfish species pairs: Depth as a potential driver of speciation. <i>Molecular Ecology,</i> 00: 1–17. </a>
+              <br>
+              <br>
+              <br>
+                <a href="https://ssarherps.org/herpetological-review-pdfs/">Girasek, Q.L., Schields B., Buonaccorsi V.P., Matter J.M. 2021. Phylogenetic Identification of North American Ratsnakes (<i>Pantherophis</i>) in Central Pennsylvania, USA. <i>Herpetological Review.</i> 52: 17-20.</a>
+              <br>
+              <br>
+              <br>
+                <a href="https://doi.org/10.1016/j.bbr.2019.112259">Radford, K. D., Spencer, H. F., Zhang, M., Berman, R. Y., Girasek, Q. L., Choi, K. H. 2020. Association between intravenous ketamine-induced stress hormone levels and long-term fear memory renewal in Sprague-Dawley rats. <i>Behavioural Brain Research</i>, 378, 112259.</a>
+              </p>
+            </div>
+            <div class="box_2">
+              <h2>Conference Presentations</h2>
+              <p>
+              Girasek QL, McDowell JR. Hungry fish: What are roundscale spearfish (Tetrapturus georgii) eating? American Fisheries Society, Tidewater Chapter. 37th Annual Meeting, 2024
+              <br>
+              <br>
+              <br>
+              Girasek QL, Copeland AM, Egan KE. Analyzing the Mesopelagic Ecosystem Along the Southeastern United 
+              States. Association for the Sciences of Limnology and Oceanography. Ocean Sciences Meeting, 2022 (Also presented at the Juniata College Liberal Arts Symposium, 2022, and Biology Senior Thesis Night, 2022)
+              <br>
+              <br>
+              <br>
+                <a href="https://doi.org/10.1002/essoar.10509752.1"> Girasek QL, Copeland AM, Egan KE, Collins AG. Investigating Mesopelagic Organism Occurrence Along the Southeastern United States. American Geophysical Union. AGU Fall Meeting, New Orleans, 2021 </a>
+              <br>
+              <br>
+              <br>
+              Girasek QL, Schields B, Buonaccorsi VP, Matter JM. Phylogenetic Classification of North American Ratsnakes (Pantherophis alleghaniensis/spiloides/obsoletus) in Central Pennsylvania. Juniata College Liberal Arts Symposium, 2020
+            </div>
+            <div class="box_2">
+              <h2>Other Published Projects</h2>
+              <p>
+                PA American Fisheries Society Workshop (Spring 2021)
+                <br>
+                <a href="https://rpubs.com/QuinnGirasek">Link here: https://rpubs.com/QuinnGirasek</a>
+                <br>
+                In RStudio, I created an interactive map looking at data on the northern snakehead and blue catfish in the Lower Susquehanna River. Both species are invasive to the region.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="flex">
+          <small>&copy; 2025. I created this site using HTML5, CSS, and JavaScript. Images were taken by me.</small>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/quinngirasek/">
+                <img src="images/linkedin.jpg" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://scholar.google.com/citations?user=pOG7BroAAAAJ&hl=en">
+                <img src="images/googlescholar.jpg" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.researchgate.net/profile/Quinn-Girasek">
+                <img src="images/researchgate.jpg" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://orcid.org/0000-0001-5687-8187">
+                <img src="images/orcid.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script>
+      document.getElementById('nav-toggle').addEventListener('click', function () {
+        let navMenu = document.getElementById('nav-menu-container');
+        navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
+      })
+    </script>
+  </body>
+</html>

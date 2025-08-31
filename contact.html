@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <meta charset="utf-8"> -->
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="flex">
+          <div class="logo">
+            <a href="index.html">Q<span>G</span></a>
+          </div>
+          <nav>
+            <button id="nav-toggle" class="hamburger-menu">
+              <span class="strip"></span>
+              <span class="strip"></span>
+              <span class="strip"></span>
+            </button>
+            <ul id="nav-menu-container" style="display: none;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="projects.html">Life</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="main_image">
+          <img src="images/GirasekQ_Juniata_College_Peace_chapel.JPG" alt="A picture I took at Juniata College">
+          <div class="main_title_bar_opaque">
+            <h1>Contact</h1>
+          </div>
+        </section>
+        <section class="one_body_boxes">
+          <div class="flex_3">
+            <div class="box_3">
+              <h2>
+                LinkedIn
+              </h2>
+              <h3>
+                <a href="https://www.linkedin.com/in/quinngirasek/">https://www.linkedin.com/in/quinngirasek/</a>
+                <br>
+                <a href="https://www.vims.edu/about/directory/students/girasek_q.php">https://www.vims.edu/about/directory/students/girasek_q.php</a>
+              </h3>
+              <p>
+                Above is a link to my LinkedIn and VIMS directory pages. You can message me there.
+                <br>
+                You can also contact me through Google Scholar or ReserchGate. See icons in the footer.
+              </p>
+            </div>
+          </div>
+        </section>
+            <!--
+              <div class="contact_form">
+                <form action="https://formspree.io/f/xrgrqqdz" method="POST" accept-charset="UTF-8" >
+                  <input type="text" name="firstName" id="name" placeholder="First Name">
+                  <input type="text" name="lastName" id="name" placeholder="Last Name">
+                  <input type="email" name="email" id="email" placeholder="Email">
+                  <input type="text" id="message" placeholder="Type your message here..."></textarea>
+                  <button type="submit">Submit</button>
+                  <input type="hidden" name="_gotcha"> use this to prevent spam
+                 -->
+                  <!--   
+                  <form>
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                  <input type="text" name="email" id="email" placeholder="Email" />
+                  <textarea id="message" placeholder="Type your message here..."></textarea>
+                  <button>Submit</button>
+                </form>
+              -->
+          <!-- </section> -->
+      </main>
+      <footer>
+        <div class="flex">
+          <small>&copy; 2025. I created this site using HTML5, CSS, and JavaScript. Images were taken by me.</small>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/quinngirasek/">
+                <img src="images/linkedin.jpg" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://scholar.google.com/citations?user=pOG7BroAAAAJ&hl=en">
+                <img src="images/googlescholar.jpg" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.researchgate.net/profile/Quinn-Girasek">
+                <img src="images/researchgate.jpg" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://orcid.org/0000-0001-5687-8187">
+                <img src="images/orcid.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function () {
+          let navMenu = document.getElementById('nav-menu-container');
+          navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
+        })
+      </script>
+  </body>
+</html>
